@@ -64,7 +64,7 @@ try:
             votes[role] = v
 
 except Exception as e:
-    print "<p><b>Error</b>: %s.</p><p>Sorry, your vote has not been counted.  Please contact an admin.</p>" % e.args
+    print "<p><b>Error</b>: %s.</p><p>Sorry, your vote has not been counted.  Please contact an admin.</p>" % e
 else:
     print """<p>
 <strong>Thanks.  Your vote has been registered.</strong>

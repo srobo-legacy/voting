@@ -51,7 +51,7 @@ for pos in positions:
 	posname = re.sub(r'\W+', '', (pos["name"])).lower()
 	print """<fieldset><legend>%s</legend>
 		<p>%s</p>""" % (cgi.escape(pos["name"]), cgi.escape(pos["desc"]))
-	
+
 	if "candidates" in pos:
 		for person in pos["candidates"]:
 			candid = re.sub(r'\W+', '', (person["name"])).lower()

@@ -1,9 +1,10 @@
 
 from __future__ import with_statement
 
+import re
 import yaml
 
-__all__ = [ 'VOTES_DIR', 'load', 'load_positions' ]
+__all__ = [ 'VOTES_DIR', 'load', 'load_positions', "position_id" ]
 
 VOTES_DIR = "/home/rbot/public_html/voting/votes"
 
@@ -15,3 +16,10 @@ def load():
 
 def load_positions():
 	return load()['positions']
+
+def position_id(full_name):
+	"""
+	Generates an html compatible id for the given position.
+	"""
+	posname = re.sub(r'\W+', '', full_name).lower()
+	return posname

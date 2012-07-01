@@ -1,6 +1,6 @@
 #!/usr/bin/env python
+
 import cgi
-import re
 
 import config
 
@@ -46,13 +46,13 @@ print """<!DOCTYPE html>
 <form method="POST" action="vote.py">"""
 
 for pos in positions:
-	posname = re.sub(r'\W+', '', (pos["name"])).lower()
+	posname = config.position_id(pos["name"])
 	print """<fieldset><legend>%s</legend>
 		<p>%s</p>""" % (cgi.escape(pos["name"]), cgi.escape(pos["desc"]))
 
 	if "candidates" in pos:
 		for person in pos["candidates"]:
-			candid = re.sub(r'\W+', '', (person["name"])).lower()
+			candid = config.position_id(person["name"])
 			id = "%s_%s" % (pos["name"], person["name"])
 			print """		<input required type="radio" name="vote_%(posname)s" id="%(posname)s_%(candid)s" value="%(candname)s" />
 		        <p><label for="%(posname)s_%(candid)s">%(candname)s</label> """ % \

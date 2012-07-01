@@ -14,7 +14,7 @@ from config import VOTES_DIR
 pos_yaml = config.load_positions()
 positions = {}
 for position in pos_yaml:
-    posname = re.sub(r'\W+', '', (position["name"])).lower()
+    posname = config.position_id(position["name"])
     positions[posname] = position["name"]
 
 class VotingException(Exception):

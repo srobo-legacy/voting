@@ -41,13 +41,13 @@ p {
 form = cgi.FieldStorage()
 
 try:
+    votes = {}
     # Discover the user:
     username = os.environ["REMOTE_USER"]
     # Load their file
     os.umask( 0077 )
     fname = os.path.join( VOTES_DIR, username )
     user_f = open( fname, "w" )
-    votes = {}
 
     r = re.compile( "^vote_([a-zA-Z0-9]+)$" )
 

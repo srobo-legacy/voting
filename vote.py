@@ -1,5 +1,12 @@
 #!/usr/bin/python
-import cgi, cgitb, re, os, base64, yaml
+
+import cgi
+import cgitb
+import re
+import os
+import base64
+import yaml
+
 cgitb.enable()
 VOTES_DIR = "/home/rbot/public_html/voting/votes"
 

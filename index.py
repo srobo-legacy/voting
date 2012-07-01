@@ -1,12 +1,10 @@
 #!/usr/bin/env python
 import cgi
-import yaml
 import re
 
-f = open('config.yaml')
-data = yaml.load(f)
-positions = data["positions"]
-f.close()
+import config
+
+positions = config.load_positions()
 
 print "Content-Type: text/html\n"
 

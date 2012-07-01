@@ -5,12 +5,13 @@ import cgitb
 import re
 import os
 import base64
-import yaml
 
 cgitb.enable()
-VOTES_DIR = "/home/rbot/public_html/voting/votes"
 
-pos_yaml = yaml.load( open("config.yaml", "r") )["positions"]
+import config
+from config import VOTES_DIR
+
+pos_yaml = config.load_positions()
 positions = {}
 for position in pos_yaml:
     posname = re.sub(r'\W+', '', (position["name"])).lower()

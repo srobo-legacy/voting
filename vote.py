@@ -48,8 +48,8 @@ p {
 
 form = cgi.FieldStorage()
 
+votes = {}
 try:
-    votes = {}
     # Discover the user:
     username = os.environ["REMOTE_USER"]
     # Load their file

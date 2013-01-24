@@ -28,18 +28,18 @@ print """<!DOCTYPE html>
 <script src="jeremy.js"></script>
 <style>
 body {
-	background-color: #DE6400;
-	font-family: sans;
-	font-size: 150%;
-	color: white;
-	margin-right: 450px;
+    background-color: #DE6400;
+    font-family: sans;
+    font-size: 150%;
+    color: white;
+    margin-right: 450px;
 }
 p {
-	z-index: -1;
+    z-index: -1;
 }
 
 #jeremy {
-	z-index: -2;
+    z-index: -2;
 }
 
 </style>

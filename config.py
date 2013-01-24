@@ -11,15 +11,15 @@ VOTES_DIR = "/home/rbot/public_html/voting/votes"
 _YAML_FILE = "config.yaml"
 
 def load():
-	with open(_YAML_FILE, 'r') as f:
-		return yaml.load( f )
+    with open(_YAML_FILE, 'r') as f:
+        return yaml.load( f )
 
 def load_positions():
-	return load()['positions']
+    return load()['positions']
 
 def position_id(full_name):
-	"""
-	Generates an html compatible id for the given position.
-	"""
-	posname = re.sub(r'\W+', '', full_name).lower()
-	return posname
+    """
+    Generates an html compatible id for the given position.
+    """
+    posname = re.sub(r'\W+', '', full_name).lower()
+    return posname

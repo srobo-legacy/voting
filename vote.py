@@ -9,7 +9,6 @@ import base64
 cgitb.enable()
 
 import config
-from config import VOTES_DIR
 
 pos_yaml = config.load_positions()
 positions = {}
@@ -48,13 +47,13 @@ p {
 
 form = cgi.FieldStorage()
 
+votes = {}
 try:
-    votes = {}
     # Discover the user:
     username = os.environ["REMOTE_USER"]
     # Load their file
     os.umask( 0077 )
-    fname = os.path.join( VOTES_DIR, username )
+    fname = os.path.join( config.VOTES_DIR, username )
     user_f = open( fname, "w" )
 
     r = re.compile( "^vote_([a-zA-Z0-9]+)$" )

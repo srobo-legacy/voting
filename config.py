@@ -6,7 +6,7 @@ import yaml
 
 __all__ = [ 'VOTES_DIR', 'load', 'load_positions', "position_id" ]
 
-VOTES_DIR = "/home/rbot/public_html/voting/votes"
+VOTES_DIR = "/home/voting/public_html/voting/votes"
 
 _YAML_FILE = "config.yaml"
 

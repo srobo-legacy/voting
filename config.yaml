@@ -1,23 +1,23 @@
 positions:
-    - name: "Community"
-      desc: "Ensuring that the community is healthy."
-      candidates:
-          - name: "Andy Cottrell"
+#    - name: "Community"
+#      desc: "Ensuring that the community is healthy."
+#      candidates:
 
     - name: "Engineering"
       desc: "Oversees our engineering effort."
       candidates:
-          - name: "Chris Kirkham"
+          - name: "Richard Barlow"
 
     - name: "Events"
       desc: "Ensures events get the organisation and attention that they need."
       candidates:
+          - name: "Sam Phippen"
           - name: "Alistair Lynn"
 
     - name: "Public Interaction"
       desc: "Interaction with the press."
       candidates:
-          - name: "Sam Phippen"
+          - name: "Andy Cottrell"
 
     - name: "School interaction, mentoring and support"
       desc: "Communications with schools and students, and mentor organisation."

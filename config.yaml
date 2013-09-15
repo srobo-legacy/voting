@@ -1,8 +1,15 @@
 positions:
-    - name: "Community"
-      desc: "Ensuring that the community is healthy."
+    - name: "SR2014 Game"
+      desc: "The game the teams will play in SR2014."
       candidates:
-          - name: "Lilafisch"
+          - name: "Slots (Rob Spanton)"
+            url: "https://groups.google.com/forum/#!topic/srobo-game/fwfX0GG00Rk"
+          - name: "Pyramid (Alistair Lynn)"
+            url: "https://groups.google.com/forum/#!topic/srobo-game/HfL2dYGunFw"
+          - name: "Baksetball (Scarzy)"
+            url: "https://groups.google.com/forum/#!topic/srobo-game/rsZbQLXhlY0"
+          - name: "The Robot Relay (Olly Smith)"
+            url: "https://groups.google.com/forum/#!topic/srobo-game/3yIXOTSFPaE"
 
 #    - name: "Engineering"
 #      desc: "Oversees our engineering effort."

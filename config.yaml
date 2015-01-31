@@ -1,38 +1,34 @@
 positions:
-    - name: "SR2014 Game"
-      desc: "The game the teams will play in SR2014."
+    - name: "Community"
+      desc: "Ensuring that the community is healthy."
       candidates:
-          - name: "Slots (Rob Spanton)"
-            url: "https://groups.google.com/forum/#!topic/srobo-game/fwfX0GG00Rk"
-          - name: "Pyramid (Alistair Lynn)"
-            url: "https://groups.google.com/forum/#!topic/srobo-game/HfL2dYGunFw"
-          - name: "Baksetball (Scarzy)"
-            url: "https://groups.google.com/forum/#!topic/srobo-game/rsZbQLXhlY0"
-          - name: "The Robot Relay (Olly Smith)"
-            url: "https://groups.google.com/forum/#!topic/srobo-game/3yIXOTSFPaE"
+          - name: "Tom Leese"
 
-#    - name: "Engineering"
-#      desc: "Oversees our engineering effort."
-#      candidates:
-#          - name: "Richard Barlow"
-#
-#    - name: "Events"
-#      desc: "Ensures events get the organisation and attention that they need."
-#      candidates:
-#          - name: "Sam Phippen"
-#          - name: "Alistair Lynn"
-#
-#    - name: "Public Interaction"
-#      desc: "Interaction with the press."
-#      candidates:
-#          - name: "Andy Cottrell"
-#
-#    - name: "School interaction, mentoring and support"
-#      desc: "Communications with schools and students, and mentor organisation."
-#      candidates:
-#          - name: "Jeremy Morse"
-#
-#    - name: "Sponsor Interaction"
-#      desc: "Ensuring we have funds."
-#      candidates:
-#          - name: "Rob Spanton"
+    - name: "Engineering"
+      desc: "Oversees our engineering effort."
+      candidates:
+          - name: "Peter Law"
+          - name: "Richard Barlow"
+
+    - name: "Events"
+      desc: "Ensures events get the organisation and attention that they need."
+      candidates:
+          - name: "Lilafisch"
+          - name: "Sam Phippen"
+
+    - name: "Public Interaction"
+      desc: "Interaction with the press."
+      candidates:
+          - name: "Harry Cutts"
+
+    - name: "School interaction, mentoring and support"
+      desc: "Communications with schools and students, and mentor organisation."
+      candidates:
+          - name: "Jeremy Morse"
+          - name: "Jon Bartlett"
+
+    - name: "Sponsor Interaction"
+      desc: "Ensuring we have funds."
+      candidates:
+          - name: "Andrew Busse"
+          - name: "Rob Spanton"

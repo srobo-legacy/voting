@@ -25,7 +25,6 @@ print """<!DOCTYPE html>
 <html><head><title>sRAVEs -- Voting Complete</title>
 <script src="jquery-1.5.2.min.js"></script>
 <script src="jquery.easing.1.3.js"></script>
-<script src="jeremy.js"></script>
 <style>
 body {
     background-color: #DE6400;
@@ -36,10 +35,6 @@ body {
 }
 p {
     z-index: -1;
-}
-
-#jeremy {
-    z-index: -2;
 }
 
 </style>
@@ -95,9 +90,6 @@ print """</ul>
 If you wish to change your vote before voting closes, just fill out the form again
 and your vote will be superseded by the new vote.
 </p>
-<div id="jeremy" style="overflow:hidden;width:100%;height:0px;position:absolute;bottom:0;left:0;">
-<img src="jeremy.png" style="float:right;"/>
-</div>
 """
 
 print """</body></html>"""

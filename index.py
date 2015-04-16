@@ -48,7 +48,7 @@ print """<!DOCTYPE html>
 for pos in positions:
     posname = config.position_id(pos["name"])
     print """<fieldset><legend>%s</legend>
-        <p>%s</p>""" % (cgi.escape(pos["name"]), cgi.escape(pos["desc"]))
+        <p>%s</p>""" % (cgi.escape(pos["name"]), pos["desc"])
 
     if "candidates" in pos:
         for person in pos["candidates"]:

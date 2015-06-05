@@ -1,0 +1,24 @@
+positions:
+  - name: School interaction, mentoring and support
+    desc: Communications with schools and students, and mentor organisation.
+    candidates: []
+
+  - name: Sponsor interaction
+    desc: Ensuring we have funds.
+    candidates: []
+
+  - name: Public interaction
+    desc: Interaction with the press.
+    candidates: []
+
+  - name: Community
+    desc: Ensuring that the community is healthy.
+    candidates: []
+
+  - name: Engineering
+    desc: Oversees our engineering effort.
+    candidates: []
+
+  - name: Events
+    desc: Ensures events get the organisation and attention that they need.
+    candidates: []

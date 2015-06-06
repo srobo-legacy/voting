@@ -1,62 +1,25 @@
 positions:
-- name: Online Presence Award 2015
-  desc: >
-      Choose the team which you think has the best online presence, according to
-      <a href="https://www.studentrobotics.org/resources/2015/rulebook.pdf">rule
-      2.6</a>. For links to teams' online presences, see
-      <a href="https://www.studentrobotics.org/trac/ticket/2750">ticket #2750</a>.
-  candidates:
-  - {name: South Wilts Grammar School for Girls (SWI)}
-  - {name: 'Royal Grammar School, Guildford (RGS)'}
-  - {name: Cotham School (COT)}
-  - {name: Barton Peveril College (BPV2)}
-  - {name: CATS College Cambridge (CAT)}
-  - {name: Cranbrook School (CRB)}
-  - {name: Bristol Grammar School (BGS)}
-  - {name: Barton Peveril College (BPV)}
-  - {name: The Cooper School (CPR)}
-  - {name: Gordano School (GRD2)}
-  - {name: Lion-Feuchtwanger-Gymnasium (LFG)}
-  - {name: Bishop Wordsworth School (BWS)}
-  - {name: Mirfield Free Grammar (MFG)}
-  - {name: Gordano School (GRD)}
-  - {name: John Mason School (JMS)}
-  - {name: Kingsbury High School (KHS)}
-  - {name: Headington School (HSO)}
-  - {name: Blatchington Mill School (BMS)}
-  - {name: Monkton Combe School (MNK)}
-  - {name: Collyers Sixth Form College (CLY2)}
-  - {name: Lawrence Sheriff School (LSS)}
-  - {name: Westcliff High School for Girls (WHS)}
-  - {name: Colston's Girls' School (CGS)}
-  - {name: St Peter's Catholic School (SPC)}
-  - {name: Tauntons College (TTN)}
-  - {name: King Edward VI Camp Hill School for Boys (CHB)}
-  - {name: Bedford School (BDF)}
-  - {name: Dulwich College (DUL)}
-  - {name: Hampton School (HAM)}
-  - {name: St Mary Redcliffe & Temple School (MRT)}
-  - {name: Clifton High School (CLF)}
-  - {name: Hills Road Sixth Form College (HRS)}
-  - {name: Cornwall College (CLC)}
-  - {name: Christ's Hospital (CHR)}
-  - {name: Collyers Sixth Form College (CLY)}
-  - {name: Wisbech Grammar School (WGS)}
-  - {name: Tunbridge Wells Grammar School for Boys (TWG)}
-  - {name: Queen Mary's College (QMC)}
-  - {name: Uppingham School (UPP)}
-  - {name: 'King Edward VI Grammar School, Chelmsford (KEG)'}
-  - {name: Peter Symonds College (PSC)}
-  - {name: Hazelwick Comprehensive School (HZW)}
-  - {name: Mildenhall College Academy (MCA)}
-  - {name: Bristol Technology and Engineering Academy (BTE)}
-  - {name: Cedars Upper School (CDU)}
-  - {name: King Edward VI School (KES)}
-  - {name: Brockenhurst College (BRK)}
-  - {name: Kennet District Explorer Scouts (KDE)}
-  - {name: Gymnasium Markt Indersdorf (MAI)}
-  - {name: Magdalen College School (MCS)}
-  - {name: Queen Elizabeth's Hospital School (QEH)}
-  - {name: Torquay Boys Grammar School (TBG)}
-  - {name: St Brendan's Sixth Form College (BRN)}
+  - name: School interaction, mentoring and support
+    desc: Communications with schools and students, and mentor organisation.
+    candidates:
+      - name: Jeremy Morse
 
+  - name: Sponsor interaction
+    desc: Ensuring we have funds.
+    candidates:
+      - name: Rob Spanton
+      - name: Andy Busse
+
+  - name: Public interaction
+    desc: Interaction with the press.
+    candidates: []
+
+  - name: Engineering
+    desc: Oversees our engineering effort.
+    candidates:
+      - name: Rich Barlow
+
+  - name: Events
+    desc: Ensures events get the organisation and attention that they need.
+    candidates:
+      - name: Sam Phippen

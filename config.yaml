@@ -2,4 +2,4 @@ positions:
   - name: Public interaction
     desc: Interaction with the press.
     candidates:
-      - James Thompson
+      - name: James Thompson

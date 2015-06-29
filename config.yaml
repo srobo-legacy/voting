@@ -1,25 +1,5 @@
 positions:
-  - name: School interaction, mentoring and support
-    desc: Communications with schools and students, and mentor organisation.
-    candidates:
-      - name: Jeremy Morse
-
-  - name: Sponsor interaction
-    desc: Ensuring we have funds.
-    candidates:
-      - name: Rob Spanton
-      - name: Andy Busse
-
   - name: Public interaction
     desc: Interaction with the press.
-    candidates: []
-
-  - name: Engineering
-    desc: Oversees our engineering effort.
     candidates:
-      - name: Rich Barlow
-
-  - name: Events
-    desc: Ensures events get the organisation and attention that they need.
-    candidates:
-      - name: Sam Phippen
+      - James Thompson

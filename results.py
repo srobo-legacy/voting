@@ -53,4 +53,4 @@ for pos in POSITIONS:
             extra = '*'
         else:
             extra = ''
-        print " {0:>15}: {1:>2} {2}".format(name, count, extra)
+        print " {0:>30}: {1:>2} {2}".format(name, count, extra)

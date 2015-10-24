@@ -1,5 +1,15 @@
 positions:
-  - name: Public interaction
-    desc: Interaction with the press.
+  - name: SR2016 Game
+    desc: The game the teams' robots will play in 2016.
     candidates:
-      - name: James Thompson
+      - name: Two Colours (Peter Law)
+        url: https://groups.google.com/d/topic/srobo-game/Zog3bbEkZBI/discussion
+
+      - name: Castle (lilafisch)
+        url: https://groups.google.com/d/topic/srobo-game/ReJ193JmSWI/discussion
+
+      - name: Buckets of Nope (Peter Law)
+        url: https://groups.google.com/d/topic/srobo-game/rKaL0y3HNTg/discussion
+
+      - name: Flip It To Win It (Ed Longman)
+        url: https://groups.google.com/d/topic/srobo-game/FDFBjuTVrRE/discussion
